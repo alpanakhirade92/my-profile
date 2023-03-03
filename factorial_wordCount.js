@@ -1,4 +1,4 @@
-console.log(`To find no of words in the string...`);
+console.log(`2. To find no of words in the string...`);
 
 var count ;
 var factorialWordsCount = function(str){
