@@ -1,5 +1,6 @@
 
 console.log(`1. To find no of words in the string...`);
+
 var factorialOfNum = function(num){
     if(num == null || num == undefined){
         return`Plz enter valid no`;
