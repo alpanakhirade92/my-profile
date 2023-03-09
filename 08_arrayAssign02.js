@@ -16,24 +16,30 @@ console.log(`Third element of array  : ${thirdElement}`);
 console.log("---------------------------------------------------------");
 console.log(`Even nos :`);
 var sum = 0;
+const array1 = [];
 for (let index = 0; index < arrayNumbers.length; index++) {
     const element = arrayNumbers[index];
     if(element % 2==0){
-        console.log(element);
+        //console.log(element);
+        array1.push(element);
     }   
 }
-
+console.log(array1);
 console.log("---------------------------------------------------------");
 console.log(`Odd nos :`);
 var sum = 0;
+let array = [];
 for (let index = 0; index < arrayNumbers.length; index++) {
     const element = arrayNumbers[index];
     if(element % 2!=0){
-       console.log(element);
+       array.push(element);
+      
         
     }
+  
     sum = sum +element; 
 }
+console.log(array);
 console.log("sum :",sum);
 
 console.log("---------------------------------------------------------");
