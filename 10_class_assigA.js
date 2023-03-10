@@ -54,15 +54,19 @@ function traverseObject(traverse) {
 traverseObject();
 
 console.log(`==========Question 3==============`);
-    let num;
-    function primeNo(num) {
-        if(num%2 == 0 && num%num == 0){
-            console.log(`${num} is prime no...`);
+let num ;
+    function primeNo(params) {
+        if(num%2 ==0 && num%num==0)
+        {
+            console.log(`11 is not prime no`);
         }
         else{
-            console.log(`${num} is not prime no`);
+            console.log(`11 is prime no`);
         }
     }
     primeNo(11);
-
+        
+        
+    
+        
 
