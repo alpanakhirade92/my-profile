@@ -29,6 +29,10 @@ for (const key of addBank) {
     console.log(key);
 }
 
+// for (const key of addBank) {
+//     console.table(`${key.bank_name} ${key.location} ${key.account_no} ${key.ifsc} ${key.intrest_rate}`);
+// }
+
 
 console.log(`...................Traverse bank object using set........\n`);
 for (const element of addBank) {
