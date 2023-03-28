@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Excise time! </title>
+    </head>
+    <body>
+        <main>
+            <div id="overview">
+                <h1 class="heading">HTML & Javascript are crucial technologies</h1>
+                <p>The web would not work without them...</p>
+            </div>
+            <div id="advantages">
+                <ul>
+                    <li class="liItem">Flexible</li>
+                    <li class="liItem">Available</li>
+                    <li class="liItem">Magical</li>
+                </ul>
+            </div>
+        </main>
+        <script>
+            console.log(`================== <h1> stored in MainHeading========================= `);
+            const mainHeading = document.querySelector(".heading") ;
+            console.log(mainHeading.innerHTML);
+
+            console.log(`================== <li> stored in secondHeading========================= `);
+            const secondAdvantage = document.querySelectorAll(".liItem");
+            console.log(secondAdvantage[1].innerHTML);
+
+            console.log(`================== <h1> stored in MainHeading========================= `);
+            const advDiv = document.querySelector("#advantages");
+            console.log(advDiv.innerHTML);
+        </script>
+    </body>
+</html>
